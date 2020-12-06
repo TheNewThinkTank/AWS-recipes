@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: Create an access point for a S3-bucket prefix and an IAM role
+
+Resources:
+  S3AP4BM30:
+    Type: 'AWS::S3::AccessPoint'
+    Properties: {}
+  IAMR3EAWS:
+    Type: 'AWS::IAM::Role'
+    Properties: {}
+    DependsOn:
+      - S3AP4BM30

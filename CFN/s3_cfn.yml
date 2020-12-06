@@ -1,0 +1,9 @@
+---
+AWSTemplateFormatVersion: 2010-09-09
+
+Description:
+  Create a S3 bucket
+
+Resources:
+  newthinktankcfnbucket:
+    Type: AWS::S3::Bucket
